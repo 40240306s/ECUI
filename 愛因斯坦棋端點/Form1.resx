@@ -1,0 +1,3848 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;GetIni.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>890, 31</value>
+  </data>
+  <data name="ReadInfoGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 217</value>
+  </data>
+  <data name="SHDice.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TestNowTime.Text" xml:space="preserve">
+    <value>0.0</value>
+  </data>
+  <data name="&gt;&gt;ReadButtomGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RoundString.Name" xml:space="preserve">
+    <value>RoundString</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="DiceNum.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="TestBoardText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 58</value>
+  </data>
+  <data name="&gt;&gt;SHDice.Parent" xml:space="preserve">
+    <value>ReadInfoGroup</value>
+  </data>
+  <data name="&gt;&gt;LB6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LB4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="EXEname.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 19</value>
+  </data>
+  <data name="DisConnectButtom.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="UprecordButtom.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="ReBoaButtom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 2</value>
+  </data>
+  <data name="&gt;&gt;SHBT.Parent" xml:space="preserve">
+    <value>ReadInfoGroup</value>
+  </data>
+  <data name="&gt;&gt;BackBottom.Parent" xml:space="preserve">
+    <value>GameButtomGroup</value>
+  </data>
+  <data name="LB5.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="PlayerB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 33</value>
+  </data>
+  <data name="PreOk.Text" xml:space="preserve">
+    <value>準備完成</value>
+  </data>
+  <data name="GetIni.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="UseUIMode.Items2" xml:space="preserve">
+    <value>讀譜模式</value>
+  </data>
+  <data name="&gt;&gt;DownrecordButtom.Parent" xml:space="preserve">
+    <value>ReadButtomGroup</value>
+  </data>
+  <data name="OneStepTimeS.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UprecordButtom.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;LB5.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="BWPString.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 62</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>骰子</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>AITestGroup</value>
+  </data>
+  <data name="SHRT.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="&gt;&gt;GetGo.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label35.Parent" xml:space="preserve">
+    <value>ReadInfoGroup</value>
+  </data>
+  <data name="PlayTimes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 30</value>
+  </data>
+  <data name="ReadButtomGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="RSM.Items1" xml:space="preserve">
+    <value>固定為</value>
+  </data>
+  <data name="ReadName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="toolStripSeparator12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 31</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>回合</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 19</value>
+  </data>
+  <data name="GameSettingButtom.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
+        zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
+        9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
+        AeoUgA07T8yaaZuZKab1rzN74jgys1YB2O2gmBZzH49LODXrrJlnzEzxe9cOLH1ziMioVgCOiuIFX0CE
+        Q+/WYf+yieiCFrRp9tkwxnP7Kt5MbKGm6wfC000KwDlTXNLgEvHMkh+Db32o7fYivtQm1l9+3IBOp5P7
+        yjYPwlKNCsAluWudxgvtknb5t9oWcL/VLU2Mvd2JFq3uqs7vAtE/ceNayiMF4KiYMSjmY2O7B4Ua+NaD
+        YQGEJumRbvyG1IcfBHI12aAAXM8R57aIWTNrLLY4tfNPiCvpR1SeVeu6WWzHFD6THSDwFMDdpmUG62NJ
+        PKM4Or9ZxBxb8H8l7g5CEu8pAOfM3WanSeeS8CFHxW4zM2umbWamOCShXAH+/wNOANABIDUxWnDPAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="SHPBB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 28</value>
+  </data>
+  <data name="LB2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 23</value>
+  </data>
+  <data name="DefaultBoaButtom.Text" xml:space="preserve">
+    <value>預設盤面</value>
+  </data>
+  <data name="Testgroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 494</value>
+  </data>
+  <data name="BWString.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+    <value>RecordInf</value>
+  </data>
+  <data name="&gt;&gt;ReadButtomGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BP.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;UseUIMode.Name" xml:space="preserve">
+    <value>UseUIMode</value>
+  </data>
+  <data name="StartGameBottom.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
+        zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
+        9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
+        AeoUgA07T8yaaZuZKab1rzN74jgys1YB2O2gmBZzH49LODXrrJlnzEzxe9cOLH1ziMioVgCOiuIFX0CE
+        Q+/WYf+yieiCFrRp9tkwxnP7Kt5MbKGm6wfC000KwDlTXNLgEvHMkh+Db32o7fYivtQm1l9+3IBOp5P7
+        yjYPwlKNCsAluWudxgvtknb5t9oWcL/VLU2Mvd2JFq3uqs7vAtE/ceNayiMF4KiYMSjmY2O7B4Ua+NaD
+        YQGEJumRbvyG1IcfBHI12aAAXM8R57aIWTNrLLY4tfNPiCvpR1SeVeu6WWzHFD6THSDwFMDdpmUG62NJ
+        PKM4Or9ZxBxb8H8l7g5CEu8pAOfM3WanSeeS8CFHxW4zM2umbWamOCShXAH+/wNOANABIDUxWnDPAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;DiceB.Name" xml:space="preserve">
+    <value>DiceB</value>
+  </data>
+  <data name="label19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DiceNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 30</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 13.8pt, style=Bold</value>
+  </data>
+  <data name="GetIni.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="LB4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;BTimeS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TestColar.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>TestInfgroup</value>
+  </data>
+  <data name="LB5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 37</value>
+  </data>
+  <data name="&gt;&gt;label25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ReadTurn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;DiceGroup.Parent" xml:space="preserve">
+    <value>Gamegroup</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>平均時間</value>
+  </data>
+  <data name="DiceB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 26.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DownrecordButtom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 3</value>
+  </data>
+  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GameButtomGroup.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;StopTestAI.Parent" xml:space="preserve">
+    <value>Testgroup</value>
+  </data>
+  <data name="&gt;&gt;TestBoardText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ReadName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 9.75pt, style=Bold</value>
+  </data>
+  <data name="OneStepTimeS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 27</value>
+  </data>
+  <data name="RoundString.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;label22.Name" xml:space="preserve">
+    <value>label22</value>
+  </data>
+  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;ReadTurn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;SHDice.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BWString.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;EXEname.Name" xml:space="preserve">
+    <value>EXEname</value>
+  </data>
+  <data name="ReadInfoGroup.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="PreOk.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 115</value>
+  </data>
+  <data name="label16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="TestMeanTime.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;BWPString.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TestAllTime.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="SHBT.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt, style=Bold</value>
+  </data>
+  <data name="toolStripButton5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>勝</value>
+  </data>
+  <data name="&gt;&gt;ReadRecNum.Name" xml:space="preserve">
+    <value>ReadRecNum</value>
+  </data>
+  <data name="GameInfgroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 88</value>
+  </data>
+  <data name="&gt;&gt;StopTestAI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BWString.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;ReadTime.Name" xml:space="preserve">
+    <value>ReadTime</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripButton5.Text" xml:space="preserve">
+    <value>toolStripButton5</value>
+  </data>
+  <data name="GameRecordList.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label28.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Or</value>
+  </data>
+  <data name="&gt;&gt;DiceNum.Name" xml:space="preserve">
+    <value>DiceNum</value>
+  </data>
+  <data name="&gt;&gt;RecordInf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ReadRecNum.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="BPIC.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;label28.Name" xml:space="preserve">
+    <value>label28</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RTimeS.Name" xml:space="preserve">
+    <value>RTimeS</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 26</value>
+  </data>
+  <data name="&gt;&gt;TestNowTime.Parent" xml:space="preserve">
+    <value>Testgroup</value>
+  </data>
+  <data name="RTimeS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 48</value>
+  </data>
+  <data name="&gt;&gt;ConnectButtom.Name" xml:space="preserve">
+    <value>ConnectButtom</value>
+  </data>
+  <data name="TestNowTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 19</value>
+  </data>
+  <data name="&gt;&gt;label36.Parent" xml:space="preserve">
+    <value>ReadInfoGroup</value>
+  </data>
+  <data name="&gt;&gt;PreOk.Name" xml:space="preserve">
+    <value>PreOk</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, -3</value>
+  </data>
+  <data name="DiceB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="&gt;&gt;GameInfgroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="toolStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="RWPString.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="RSM.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="ElseButtom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 28</value>
+  </data>
+  <data name="toolStripButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 31</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DefaultBoaButtom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 30</value>
+  </data>
+  <data name="LB1.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ReBoaButtom.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ReadInfoGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DiceB.Parent" xml:space="preserve">
+    <value>DiceGroup</value>
+  </data>
+  <data name="&gt;&gt;LanguageChange.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TestInfgroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripButton5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
+        zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
+        9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
+        AeoUgA07T8yaaZuZKab1rzN74jgys1YB2O2gmBZzH49LODXrrJlnzEzxe9cOLH1ziMioVgCOiuIFX0CE
+        Q+/WYf+yieiCFrRp9tkwxnP7Kt5MbKGm6wfC000KwDlTXNLgEvHMkh+Db32o7fYivtQm1l9+3IBOp5P7
+        yjYPwlKNCsAluWudxgvtknb5t9oWcL/VLU2Mvd2JFq3uqs7vAtE/ceNayiMF4KiYMSjmY2O7B4Ua+NaD
+        YQGEJumRbvyG1IcfBHI12aAAXM8R57aIWTNrLLY4tfNPiCvpR1SeVeu6WWzHFD6THSDwFMDdpmUG62NJ
+        PKM4Or9ZxBxb8H8l7g5CEu8pAOfM3WanSeeS8CFHxW4zM2umbWamOCShXAH+/wNOANABIDUxWnDPAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;TestNowTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RWPString.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DisConnectButtom.Text" xml:space="preserve">
+    <value>斷線</value>
+  </data>
+  <data name="&gt;&gt;EndGameBottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Dice</value>
+  </data>
+  <data name="&gt;&gt;ReBoaButtom.Name" xml:space="preserve">
+    <value>ReBoaButtom</value>
+  </data>
+  <data name="&gt;&gt;SHRT.Parent" xml:space="preserve">
+    <value>ReadInfoGroup</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ElseButtom.Name" xml:space="preserve">
+    <value>ElseButtom</value>
+  </data>
+  <data name="DiceNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 77</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;label35.Name" xml:space="preserve">
+    <value>label35</value>
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 16</value>
+  </data>
+  <data name="&gt;&gt;PreOk.Parent" xml:space="preserve">
+    <value>GameButtomGroup</value>
+  </data>
+  <data name="GameInfgroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 34</value>
+  </data>
+  <data name="ReadTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>測試盤面:</value>
+  </data>
+  <data name="&gt;&gt;UprecordButtom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AITestGroup.Name" xml:space="preserve">
+    <value>AITestGroup</value>
+  </data>
+  <data name="ReadTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LB6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 27.75pt, style=Bold</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt, style=Bold</value>
+  </data>
+  <data name="label36.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;RTimeS.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="NumBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 21.75pt, style=Bold</value>
+  </data>
+  <data name="StopTestAI.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Testgroup.Name" xml:space="preserve">
+    <value>Testgroup</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;OneStepTimeS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GetGo.Parent" xml:space="preserve">
+    <value>AITestGroup</value>
+  </data>
+  <data name="&gt;&gt;SHPBR.Parent" xml:space="preserve">
+    <value>ReadInfoGroup</value>
+  </data>
+  <data name="&gt;&gt;DiceGroup.Name" xml:space="preserve">
+    <value>DiceGroup</value>
+  </data>
+  <data name="LB2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 27.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;RWString.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OneStepTimeS.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;SHRT.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="&gt;&gt;UprecordButtom.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ReadInfoGroup.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RoundString.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>時間限制</value>
+  </data>
+  <data name="LB5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;BP.Name" xml:space="preserve">
+    <value>BP</value>
+  </data>
+  <data name="&gt;&gt;AITestGroup.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;DownrecordButtom.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;BPIC.Name" xml:space="preserve">
+    <value>BPIC</value>
+  </data>
+  <data name="ElseButtom.Text" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="&gt;&gt;ReadRecNum.Parent" xml:space="preserve">
+    <value>ReadButtomGroup</value>
+  </data>
+  <data name="TimeLimit.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>名稱:</value>
+  </data>
+  <data name="&gt;&gt;BWString.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="RSM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SHDice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 46</value>
+  </data>
+  <data name="RWPString.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 16</value>
+  </data>
+  <data name="RTimeS.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ElseButtom.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;TestInfgroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="toolStripButton5.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;ReadTime.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Langu_en.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TestMeanTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SHRT.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt, style=Bold</value>
+  </data>
+  <data name="BlueGroup.Text" xml:space="preserve">
+    <value>拖曳AI至此</value>
+  </data>
+  <data name="&gt;&gt;label22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReBoaButtom.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;EXEname.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;LB4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHDice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 32</value>
+  </data>
+  <data name="EndGameBottom.Text" xml:space="preserve">
+    <value>結束遊戲</value>
+  </data>
+  <data name="TestAllTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="DisConnectButtom.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
+        zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
+        9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
+        AeoUgA07T8yaaZuZKab1rzN74jgys1YB2O2gmBZzH49LODXrrJlnzEzxe9cOLH1ziMioVgCOiuIFX0CE
+        Q+/WYf+yieiCFrRp9tkwxnP7Kt5MbKGm6wfC000KwDlTXNLgEvHMkh+Db32o7fYivtQm1l9+3IBOp5P7
+        yjYPwlKNCsAluWudxgvtknb5t9oWcL/VLU2Mvd2JFq3uqs7vAtE/ceNayiMF4KiYMSjmY2O7B4Ua+NaD
+        YQGEJumRbvyG1IcfBHI12aAAXM8R57aIWTNrLLY4tfNPiCvpR1SeVeu6WWzHFD6THSDwFMDdpmUG62NJ
+        PKM4Or9ZxBxb8H8l7g5CEu8pAOfM3WanSeeS8CFHxW4zM2umbWamOCShXAH+/wNOANABIDUxWnDPAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;SHRT.Name" xml:space="preserve">
+    <value>SHRT</value>
+  </data>
+  <data name="&gt;&gt;TestColar.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="PlayTimes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 14.25pt</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 148</value>
+  </data>
+  <data name="&gt;&gt;TestMeanTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LB4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 23</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LanguageChange.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
+        zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
+        9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
+        AeoUgA07T8yaaZuZKab1rzN74jgys1YB2O2gmBZzH49LODXrrJlnzEzxe9cOLH1ziMioVgCOiuIFX0CE
+        Q+/WYf+yieiCFrRp9tkwxnP7Kt5MbKGm6wfC000KwDlTXNLgEvHMkh+Db32o7fYivtQm1l9+3IBOp5P7
+        yjYPwlKNCsAluWudxgvtknb5t9oWcL/VLU2Mvd2JFq3uqs7vAtE/ceNayiMF4KiYMSjmY2O7B4Ua+NaD
+        YQGEJumRbvyG1IcfBHI12aAAXM8R57aIWTNrLLY4tfNPiCvpR1SeVeu6WWzHFD6THSDwFMDdpmUG62NJ
+        PKM4Or9ZxBxb8H8l7g5CEu8pAOfM3WanSeeS8CFHxW4zM2umbWamOCShXAH+/wNOANABIDUxWnDPAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LB4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="SHBT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 62</value>
+  </data>
+  <data name="&gt;&gt;LB3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>AITestGroup</value>
+  </data>
+  <data name="GameRecordList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="GameInfgroup.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;RecordInf.Name" xml:space="preserve">
+    <value>RecordInf</value>
+  </data>
+  <data name="label35.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="DisConnectButtom.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
+    <value>toolStripMenuItem2</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 19</value>
+  </data>
+  <data name="EndGameBottom.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="DefaultBoaButtom.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;label28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LB2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RWString.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="TestMeanTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 400</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="RoundString.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 20.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TestColar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 18pt, style=Bold</value>
+  </data>
+  <data name="label20.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="ReBoaButtom.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="LB2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 363</value>
+  </data>
+  <data name="ReadInfoGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;TimeLimit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UprecordButtom.Name" xml:space="preserve">
+    <value>UprecordButtom</value>
+  </data>
+  <data name="BackBottom.Text" xml:space="preserve">
+    <value>退回走步</value>
+  </data>
+  <data name="&gt;&gt;LB1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="label35.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Testgroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ReadButtomGroup.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 45</value>
+  </data>
+  <data name="RTimeS.Text" xml:space="preserve">
+    <value>T 240s</value>
+  </data>
+  <data name="&gt;&gt;StartTestAI.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="AITestGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 120</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="GameButtomGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="UseUIMode.Items1" xml:space="preserve">
+    <value>測試模式</value>
+  </data>
+  <data name="BPIC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 41</value>
+  </data>
+  <data name="label14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;BackBottom.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ReadButtomGroup.Name" xml:space="preserve">
+    <value>ReadButtomGroup</value>
+  </data>
+  <data name="DiceGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 74</value>
+  </data>
+  <data name="ReadTurn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 50</value>
+  </data>
+  <data name="TestMeanTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 19</value>
+  </data>
+  <data name="TestColar.Items1" xml:space="preserve">
+    <value>紅</value>
+  </data>
+  <data name="TestNowTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 363</value>
+  </data>
+  <data name="label11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt, style=Bold</value>
+  </data>
+  <data name="TestAllTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 13.8pt, style=Bold</value>
+  </data>
+  <data name="ConnectButtom.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
+        zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
+        9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
+        AeoUgA07T8yaaZuZKab1rzN74jgys1YB2O2gmBZzH49LODXrrJlnzEzxe9cOLH1ziMioVgCOiuIFX0CE
+        Q+/WYf+yieiCFrRp9tkwxnP7Kt5MbKGm6wfC000KwDlTXNLgEvHMkh+Db32o7fYivtQm1l9+3IBOp5P7
+        yjYPwlKNCsAluWudxgvtknb5t9oWcL/VLU2Mvd2JFq3uqs7vAtE/ceNayiMF4KiYMSjmY2O7B4Ua+NaD
+        YQGEJumRbvyG1IcfBHI12aAAXM8R57aIWTNrLLY4tfNPiCvpR1SeVeu6WWzHFD6THSDwFMDdpmUG62NJ
+        PKM4Or9ZxBxb8H8l7g5CEu8pAOfM3WanSeeS8CFHxW4zM2umbWamOCShXAH+/wNOANABIDUxWnDPAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;TestAllTime.Parent" xml:space="preserve">
+    <value>Testgroup</value>
+  </data>
+  <data name="&gt;&gt;NumBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 48</value>
+  </data>
+  <data name="GameRecordList.ItemHeight" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label22.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;SHBT.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;label25.Parent" xml:space="preserve">
+    <value>ReadInfoGroup</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>AITestGroup</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>愛因斯坦棋介面</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GameButtomGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BWString.Parent" xml:space="preserve">
+    <value>GameInfgroup</value>
+  </data>
+  <data name="LB1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 16</value>
+  </data>
+  <data name="OneStepTimeS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 48</value>
+  </data>
+  <data name="&gt;&gt;NumBox.Parent" xml:space="preserve">
+    <value>DiceP</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Gamegroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 34</value>
+  </data>
+  <data name="PreOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 2</value>
+  </data>
+  <data name="&gt;&gt;GameInfgroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LB6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="EXEname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 19</value>
+  </data>
+  <data name="StartTestAI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 30</value>
+  </data>
+  <data name="&gt;&gt;RSM.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>GameInfgroup</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 436</value>
+  </data>
+  <data name="&gt;&gt;BTimeS.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="RWString.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 16</value>
+  </data>
+  <data name="StopTestAI.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 13.8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="SHPBB.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;LB5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton5.Name" xml:space="preserve">
+    <value>toolStripButton5</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BackBottom.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="StartTestAI.Text" xml:space="preserve">
+    <value>啟動AI</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>Testgroup</value>
+  </data>
+  <data name="&gt;&gt;EXEname.Parent" xml:space="preserve">
+    <value>PlayerB</value>
+  </data>
+  <data name="&gt;&gt;SHRT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>回合</value>
+  </data>
+  <data name="&gt;&gt;PlayerB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ReadTime.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;PlayTimes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DiceP.Name" xml:space="preserve">
+    <value>DiceP</value>
+  </data>
+  <data name="&gt;&gt;GameButtomGroup.Name" xml:space="preserve">
+    <value>GameButtomGroup</value>
+  </data>
+  <data name="DiceP.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="&gt;&gt;GetGo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label36.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;GetIni.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LB1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 27.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="OneStepTimeS.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 20.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;RTimeS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LanguageChange.Name" xml:space="preserve">
+    <value>LanguageChange</value>
+  </data>
+  <data name="StopTestAI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 30</value>
+  </data>
+  <data name="SHPBR.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="TestColar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 32</value>
+  </data>
+  <data name="&gt;&gt;ReadName.Name" xml:space="preserve">
+    <value>ReadName</value>
+  </data>
+  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>Testgroup</value>
+  </data>
+  <data name="StartGameBottom.Text" xml:space="preserve">
+    <value>開始遊戲</value>
+  </data>
+  <data name="&gt;&gt;Gamegroup.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="RecordInf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 74</value>
+  </data>
+  <data name="&gt;&gt;TestAllTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ReadInfoGroup.Text" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="&gt;&gt;DisConnectButtom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="RWString.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;PlayTimes.Name" xml:space="preserve">
+    <value>PlayTimes</value>
+  </data>
+  <data name="BWPString.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 16</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 115</value>
+  </data>
+  <data name="&gt;&gt;SHBT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ReadName.Text" xml:space="preserve">
+    <value>無</value>
+  </data>
+  <data name="DownrecordButtom.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>DiceP</value>
+  </data>
+  <data name="ReadButtomGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 418</value>
+  </data>
+  <data name="&gt;&gt;PlayTimes.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="LB2.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;BlueGroup.Parent" xml:space="preserve">
+    <value>Testgroup</value>
+  </data>
+  <data name="&gt;&gt;RPIC.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RTimeS.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;SHPBB.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 28</value>
+  </data>
+  <data name="label23.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt, style=Bold</value>
+  </data>
+  <data name="TestNowTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 19</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="RPIC.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;TestAllTime.Name" xml:space="preserve">
+    <value>TestAllTime</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>AITestGroup</value>
+  </data>
+  <data name="RTimeS.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="LanguageChange.Text" xml:space="preserve">
+    <value>語言</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>DiceGroup</value>
+  </data>
+  <data name="&gt;&gt;label23.Name" xml:space="preserve">
+    <value>label23</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>890, 533</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 47</value>
+  </data>
+  <data name="TestBoardText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 27</value>
+  </data>
+  <data name="BackBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 16</value>
+  </data>
+  <data name="GetGo.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;LB3.Parent" xml:space="preserve">
+    <value>TestInfgroup</value>
+  </data>
+  <data name="&gt;&gt;RSM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GameInfgroup.Name" xml:space="preserve">
+    <value>GameInfgroup</value>
+  </data>
+  <data name="&gt;&gt;ReadName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>AITestGroup</value>
+  </data>
+  <data name="&gt;&gt;ReadRecNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;TestMeanTime.Name" xml:space="preserve">
+    <value>TestMeanTime</value>
+  </data>
+  <data name="&gt;&gt;StopTestAI.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="BTimeS.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="RecordInf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 337</value>
+  </data>
+  <data name="LB3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label28.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;DiceNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RSM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 77</value>
+  </data>
+  <data name="&gt;&gt;BPIC.Parent" xml:space="preserve">
+    <value>GameInfgroup</value>
+  </data>
+  <data name="NumBox.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="StartTestAI.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;RTimeS.Parent" xml:space="preserve">
+    <value>GameInfgroup</value>
+  </data>
+  <data name="BPIC.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="BWString.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ConnectButtom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DiceNum.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="BTimeS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 48</value>
+  </data>
+  <data name="LB3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 37</value>
+  </data>
+  <data name="RoundString.Text" xml:space="preserve">
+    <value>10000</value>
+  </data>
+  <data name="&gt;&gt;Langu_en.Name" xml:space="preserve">
+    <value>Langu_en</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>Testgroup</value>
+  </data>
+  <data name="&gt;&gt;BP.Parent" xml:space="preserve">
+    <value>TestInfgroup</value>
+  </data>
+  <data name="GetGo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;OneStepTimeS.Parent" xml:space="preserve">
+    <value>GameInfgroup</value>
+  </data>
+  <data name="label19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;RPIC.Parent" xml:space="preserve">
+    <value>GameInfgroup</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 19</value>
+  </data>
+  <data name="Gamegroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt, style=Bold</value>
+  </data>
+  <data name="Testgroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>633, 34</value>
+  </data>
+  <data name="label18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="SHRT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 363</value>
+  </data>
+  <data name="&gt;&gt;UseUIMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BWString.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 16</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>Testgroup</value>
+  </data>
+  <data name="LB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 37</value>
+  </data>
+  <data name="&gt;&gt;GameRecordList.Name" xml:space="preserve">
+    <value>GameRecordList</value>
+  </data>
+  <data name="&gt;&gt;SHBT.Name" xml:space="preserve">
+    <value>SHBT</value>
+  </data>
+  <data name="&gt;&gt;Langu_def.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 16</value>
+  </data>
+  <data name="TestMeanTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="ReadRecNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 30</value>
+  </data>
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="GameSettingButtom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 28</value>
+  </data>
+  <data name="StopTestAI.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
+    <value>RecordInf</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;RP.Name" xml:space="preserve">
+    <value>RP</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReadTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PreOk.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="TestBoardText.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="ReadName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="&gt;&gt;ReadInfoGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 17</value>
+  </data>
+  <data name="label25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt, style=Bold</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 19</value>
+  </data>
+  <data name="&gt;&gt;BackBottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ReadTurn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 20.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="BWString.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="&gt;&gt;BWPString.Parent" xml:space="preserve">
+    <value>GameInfgroup</value>
+  </data>
+  <data name="label23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="RWPString.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 62</value>
+  </data>
+  <data name="EndGameBottom.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
+        zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
+        9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
+        AeoUgA07T8yaaZuZKab1rzN74jgys1YB2O2gmBZzH49LODXrrJlnzEzxe9cOLH1ziMioVgCOiuIFX0CE
+        Q+/WYf+yieiCFrRp9tkwxnP7Kt5MbKGm6wfC000KwDlTXNLgEvHMkh+Db32o7fYivtQm1l9+3IBOp5P7
+        yjYPwlKNCsAluWudxgvtknb5t9oWcL/VLU2Mvd2JFq3uqs7vAtE/ceNayiMF4KiYMSjmY2O7B4Ua+NaD
+        YQGEJumRbvyG1IcfBHI12aAAXM8R57aIWTNrLLY4tfNPiCvpR1SeVeu6WWzHFD6THSDwFMDdpmUG62NJ
+        PKM4Or9ZxBxb8H8l7g5CEu8pAOfM3WanSeeS8CFHxW4zM2umbWamOCShXAH+/wNOANABIDUxWnDPAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="SHBT.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ReadTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;RoundString.Parent" xml:space="preserve">
+    <value>GameInfgroup</value>
+  </data>
+  <data name="&gt;&gt;label28.Parent" xml:space="preserve">
+    <value>ReadInfoGroup</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 19</value>
+  </data>
+  <data name="UseUIMode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft JhengHei UI, 12pt, style=Bold</value>
+  </data>
+  <data name="BP.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="ReBoaButtom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 30</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;TestBoardText.Parent" xml:space="preserve">
+    <value>TestInfgroup</value>
+  </data>
+  <data name="&gt;&gt;ReadTurn.Parent" xml:space="preserve">
+    <value>ReadInfoGroup</value>
+  </data>
+  <data name="DiceB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 46</value>
+  </data>
+  <data name="&gt;&gt;ReadName.Parent" xml:space="preserve">
+    <value>RecordInf</value>
+  </data>
+  <data name="&gt;&gt;SHDice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LB5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;BlueGroup.Name" xml:space="preserve">
+    <value>BlueGroup</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RecordInf.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LB4.Name" xml:space="preserve">
+    <value>LB4</value>
+  </data>
+  <data name="GameInfgroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt</value>
+  </data>
+  <data name="toolStripButton4.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="SHRT.Text" xml:space="preserve">
+    <value>240</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 19</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StartTestAI.Name" xml:space="preserve">
+    <value>StartTestAI</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 19</value>
+  </data>
+  <data name="NumBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 42</value>
+  </data>
+  <data name="TestAllTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ConnectButtom.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;RPIC.Name" xml:space="preserve">
+    <value>RPIC</value>
+  </data>
+  <data name="LB1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>時間:</value>
+  </data>
+  <data name="&gt;&gt;TimeLimit.Parent" xml:space="preserve">
+    <value>AITestGroup</value>
+  </data>
+  <data name="&gt;&gt;BP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label35.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;DiceNum.Parent" xml:space="preserve">
+    <value>AITestGroup</value>
+  </data>
+  <data name="TestMeanTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 13.8pt, style=Bold</value>
+  </data>
+  <data name="BackBottom.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ReadRecNum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 14.25pt</value>
+  </data>
+  <data name="EXEname.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;PlayerB.Parent" xml:space="preserve">
+    <value>BlueGroup</value>
+  </data>
+  <data name="toolStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;TestColar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="BlueGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="&gt;&gt;LB2.Name" xml:space="preserve">
+    <value>LB2</value>
+  </data>
+  <data name="NumBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ReadTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 19</value>
+  </data>
+  <data name="TestAllTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 436</value>
+  </data>
+  <data name="&gt;&gt;TestColar.Parent" xml:space="preserve">
+    <value>AITestGroup</value>
+  </data>
+  <data name="ElseButtom.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
+        zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
+        9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
+        AeoUgA07T8yaaZuZKab1rzN74jgys1YB2O2gmBZzH49LODXrrJlnzEzxe9cOLH1ziMioVgCOiuIFX0CE
+        Q+/WYf+yieiCFrRp9tkwxnP7Kt5MbKGm6wfC000KwDlTXNLgEvHMkh+Db32o7fYivtQm1l9+3IBOp5P7
+        yjYPwlKNCsAluWudxgvtknb5t9oWcL/VLU2Mvd2JFq3uqs7vAtE/ceNayiMF4KiYMSjmY2O7B4Ua+NaD
+        YQGEJumRbvyG1IcfBHI12aAAXM8R57aIWTNrLLY4tfNPiCvpR1SeVeu6WWzHFD6THSDwFMDdpmUG62NJ
+        PKM4Or9ZxBxb8H8l7g5CEu8pAOfM3WanSeeS8CFHxW4zM2umbWamOCShXAH+/wNOANABIDUxWnDPAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;label36.Name" xml:space="preserve">
+    <value>label36</value>
+  </data>
+  <data name="&gt;&gt;BWPString.Name" xml:space="preserve">
+    <value>BWPString</value>
+  </data>
+  <data name="GameRecordList.Items" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;RPIC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LB3.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;DefaultBoaButtom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LB1.Name" xml:space="preserve">
+    <value>LB1</value>
+  </data>
+  <data name="&gt;&gt;StartTestAI.Parent" xml:space="preserve">
+    <value>Testgroup</value>
+  </data>
+  <data name="label28.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt, style=Bold</value>
+  </data>
+  <data name="PreOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 30</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 19</value>
+  </data>
+  <data name="&gt;&gt;BPIC.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="StartGameBottom.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="DefaultBoaButtom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 2</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="StopTestAI.Text" xml:space="preserve">
+    <value>停止AI</value>
+  </data>
+  <data name="&gt;&gt;RSM.Name" xml:space="preserve">
+    <value>RSM</value>
+  </data>
+  <data name="label17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;DiceGroup.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LB5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 28</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>回</value>
+  </data>
+  <data name="&gt;&gt;EXEname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TestMeanTime.Parent" xml:space="preserve">
+    <value>Testgroup</value>
+  </data>
+  <data name="&gt;&gt;LB3.Name" xml:space="preserve">
+    <value>LB3</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GameInfgroup.Text" xml:space="preserve">
+    <value>1234567890  vs  1234567890 </value>
+  </data>
+  <data name="LanguageChange.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;BWString.Name" xml:space="preserve">
+    <value>BWString</value>
+  </data>
+  <data name="RWPString.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt, style=Bold</value>
+  </data>
+  <data name="DiceB.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="BackBottom.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="ConnectButtom.Text" xml:space="preserve">
+    <value>連線</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;BTimeS.Parent" xml:space="preserve">
+    <value>GameInfgroup</value>
+  </data>
+  <data name="&gt;&gt;DefaultBoaButtom.Name" xml:space="preserve">
+    <value>DefaultBoaButtom</value>
+  </data>
+  <data name="&gt;&gt;RWPString.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;label35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TestButtomGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;AITestGroup.Parent" xml:space="preserve">
+    <value>Testgroup</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 16</value>
+  </data>
+  <data name="&gt;&gt;LB6.Name" xml:space="preserve">
+    <value>LB6</value>
+  </data>
+  <data name="LB6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 37</value>
+  </data>
+  <data name="&gt;&gt;TimeLimit.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LB3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 23</value>
+  </data>
+  <data name="TestButtomGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 35</value>
+  </data>
+  <data name="TestColar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 40</value>
+  </data>
+  <data name="&gt;&gt;LB2.Parent" xml:space="preserve">
+    <value>TestInfgroup</value>
+  </data>
+  <data name="&gt;&gt;ReadButtomGroup.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ReadButtomGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 35</value>
+  </data>
+  <data name="TestInfgroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 123</value>
+  </data>
+  <data name="LB2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Name" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="LB1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 23</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BTimeS.Text" xml:space="preserve">
+    <value>T 240s</value>
+  </data>
+  <data name="EXEname.Text" xml:space="preserve">
+    <value>(無)</value>
+  </data>
+  <data name="&gt;&gt;LB5.Name" xml:space="preserve">
+    <value>LB5</value>
+  </data>
+  <data name="AITestGroup.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LB1.Parent" xml:space="preserve">
+    <value>TestInfgroup</value>
+  </data>
+  <data name="RTimeS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 16</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="GameRecordList.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="BP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 18</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>關於</value>
+  </data>
+  <data name="&gt;&gt;BlueGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReadName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;PlayerB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>連續回數</value>
+  </data>
+  <data name="&gt;&gt;RoundString.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label36.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TestButtomGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PlayerB.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="label21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;TestAllTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GetGo.Text" xml:space="preserve">
+    <value>執行走步測試</value>
+  </data>
+  <data name="BP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 45</value>
+  </data>
+  <data name="Langu_def.Text" xml:space="preserve">
+    <value>預設(中文)</value>
+  </data>
+  <data name="&gt;&gt;SHPBR.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="BTimeS.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GameRecordList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 308</value>
+  </data>
+  <data name="label36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 62</value>
+  </data>
+  <data name="ReadTurn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 27</value>
+  </data>
+  <data name="BackBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 30</value>
+  </data>
+  <data name="&gt;&gt;RWString.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;ReadTurn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ReadName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 13</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>GameInfgroup</value>
+  </data>
+  <data name="ReadInfoGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Dice</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TestInfgroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 88</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 400</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 19</value>
+  </data>
+  <data name="&gt;&gt;Langu_def.Name" xml:space="preserve">
+    <value>Langu_def</value>
+  </data>
+  <data name="&gt;&gt;RP.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RPIC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 40</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 16</value>
+  </data>
+  <data name="&gt;&gt;GetGo.Name" xml:space="preserve">
+    <value>GetGo</value>
+  </data>
+  <data name="NumBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="SHPBR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 31</value>
+  </data>
+  <data name="SHBT.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="RP.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;Testgroup.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ReBoaButtom.Parent" xml:space="preserve">
+    <value>TestButtomGroup</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 19</value>
+  </data>
+  <data name="TestInfgroup.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="BlueGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;RWPString.Name" xml:space="preserve">
+    <value>RWPString</value>
+  </data>
+  <data name="&gt;&gt;RoundString.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TestColar.Items" xml:space="preserve">
+    <value>藍</value>
+  </data>
+  <data name="DisConnectButtom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 28</value>
+  </data>
+  <data name="DownrecordButtom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 30</value>
+  </data>
+  <data name="GameButtomGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 35</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DiceGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;TestBoardText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>AITestGroup</value>
+  </data>
+  <data name="NumBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 15</value>
+  </data>
+  <data name="&gt;&gt;LB5.Parent" xml:space="preserve">
+    <value>TestInfgroup</value>
+  </data>
+  <data name="EXEname.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RPIC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 42</value>
+  </data>
+  <data name="&gt;&gt;TestNowTime.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Testgroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt, style=Bold</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 31</value>
+  </data>
+  <data name="&gt;&gt;OneStepTimeS.Name" xml:space="preserve">
+    <value>OneStepTimeS</value>
+  </data>
+  <data name="BTimeS.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt, style=Bold</value>
+  </data>
+  <data name="StartTestAI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 84</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ElseButtom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DiceP.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;SHDice.Name" xml:space="preserve">
+    <value>SHDice</value>
+  </data>
+  <data name="Testgroup.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="LB3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="SHRT.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;AITestGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RWPString.Text" xml:space="preserve">
+    <value>People</value>
+  </data>
+  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SHDice.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="GameSettingButtom.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 20</value>
+  </data>
+  <data name="LB3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 27.75pt, style=Bold</value>
+  </data>
+  <data name="ReadName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;DiceP.Parent" xml:space="preserve">
+    <value>DiceGroup</value>
+  </data>
+  <data name="BTimeS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 16</value>
+  </data>
+  <data name="label21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EXEname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 7</value>
+  </data>
+  <data name="label23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="EndGameBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 28</value>
+  </data>
+  <data name="StopTestAI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 84</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 83</value>
+  </data>
+  <data name="label36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 16</value>
+  </data>
+  <data name="&gt;&gt;ReBoaButtom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ReadTime.Text" xml:space="preserve">
+    <value>無</value>
+  </data>
+  <data name="label20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GetIni.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 30</value>
+  </data>
+  <data name="DiceP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 62</value>
+  </data>
+  <data name="&gt;&gt;label35.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="BWPString.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt, style=Bold</value>
+  </data>
+  <data name="EXEname.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="LB5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 27.75pt, style=Bold</value>
+  </data>
+  <data name="SHRT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 62</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BPIC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 42</value>
+  </data>
+  <data name="&gt;&gt;StartGameBottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Testgroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 25</value>
+  </data>
+  <data name="&gt;&gt;RP.Parent" xml:space="preserve">
+    <value>TestInfgroup</value>
+  </data>
+  <data name="&gt;&gt;GameRecordList.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ReadName.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;TestInfgroup.Name" xml:space="preserve">
+    <value>TestInfgroup</value>
+  </data>
+  <data name="&gt;&gt;BP.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="toolStripMenuItem2.Text" xml:space="preserve">
+    <value>修復盤面</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 19</value>
+  </data>
+  <data name="TestNowTime.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;ReadTurn.Name" xml:space="preserve">
+    <value>ReadTurn</value>
+  </data>
+  <data name="&gt;&gt;ReadRecNum.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LB1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;RWString.Name" xml:space="preserve">
+    <value>RWString</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAQAEBAAAAEAIABoBAAARgAAACAgAAABACAAKBEAAK4EAAAwMAAAAQAgAGgmAADWFQAAAAAAAAEA
+        IAD9YQAAPjwAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAYDHSkdDWAkGgtcBgUCFQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMSMQUKVzNfC4gjv/p3U1/25OIuYXEQc9AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQkFEsKIPvDin0n/2ZlG/9uaR/++hj3/Y0Ye3gIB
+        AAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIuFUn6r1H/15dF/9SWRf/XmEb/15hG/5Jn
+        Lv8QCwUxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2JRI2/7tY/9yaSP/Rk0P/1ZZF/9iY
+        Rv+bbTH/CgcDIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEBAr+QSMD/0W//5J9I/+Kf
+        Sf/loUr/ZEYgqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVDwcVpH08peen
+        TevYl0Xod1MmmQYFAgsAAAAAAAAAAAAAAAAAAAAABQUQJR0bVZ4iH2bHGRdJpgYGETEAAAAAAAAAAAAA
+        AAANCQUOCgcEDAAAAAAAAAAAAAAAAAAAAAAAAAAABwcTHjo4rOlIRNT/RkPP/z47uf8mJXX1BgYRLgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACkmd4xTT/T/SUbX/0lG2f9LSN3/Pju3/xcV
+        RaYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6N6yzUk74/0ZD0v9IRdX/SUbZ/0VC
+        zf8gHmHKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKCd4eGpm//9NSdf/RkPS/0lG
+        1/9HRNL/GRZKkgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDDQ1UUcvMaGT//1RQ
+        +v9TT/P/NTOf2wQEChkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEKCicl
+        cHA0MpaXIyFoeAQECxIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgA
+        AAAgAAAAQAAAAAEAIAAAAAAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACgAAAAwAAAAYAAAAAEAIAAAAAAAQCYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAwEJFhAHNRgRCDYYEgg2Ew4GKwAA
+        AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGRIIQEcyFqJlRyDhclAk/3JQ
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGBRAQPTqsrV9b//9ZVf//WFX//1dS/P9UUff/Uk7y/1FN
+        7f9PS+f/TEng/0pH2v9IRNP/MC+R1QsKHzoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIgYGBST+boX1r//11Z
+        //9bVv//WFT//1VR+/9TT/P/UEzr/0RBy/kjIGeOAwIGDQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAHBxUVHx5YWjo4p6lCP8LHPzy6xz47tcc4NaS9Hh5bbwoJHCYAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        Ubzki78Xb6b4vJWH4jPv/jQ+8y7Yh7Xbwncd9qZY2lzYK8pmvuA3PD592rONi6testOVFhYXInIXH/hj
+        9oqvxxds9u3JWXN4T/a9X+zJvufzPZ2WfVK7LflwT8fFH+zpeOdBtnf2dFz0zp70Ow7sSZ//xp4O817d
+        0/62l/e0n/OiXHZc8v6edrOe29Bu+v7m+uUsLCzOJwpXHUrIX3+8rHBzdVn+fd+W5d737aicld8e6PIo
+        UcmDREXb2LaybWHbrC4L+bJwk7KCjdVUsOEk8XNQ/tpjlLfmMOWtPkS5K7+j7BVfUtY9n1HW8n8SRxKU
+        s/Jr6nDbS9R25rNLUqfuK0udvqes3dxXytpMeKwgvtd8u6eihcXZRPFK+nX+mu/+Wrq9+rLS9YcuK9pw
+        pGHOqsNz89YfP1yw+eTh3NXfwY7krz1KhRt9TGy29SfYmNzrjBmSK+PHU86qb4XcOUx4jhbYmPRM+Mxl
+        H1OnJR9Qp8UHKePOdylj0duUNu9Vaj/7hePtZj5zuO2M/Yfbz33pcMqU3U+lTtiZ3r7q8cvaT4Ttv6z9
+        kJV2uzULi58SWeu+bZe77si9xQ/6VuevPb6avfa6vLXHPih9mKj0EeXxO+9Qnj1/3VEhuwjAhhPKw+M+
+        Fgfx8Ku+E8tZ+Q3l3Pe1ePvsew35/6m8PgtA5tIPWQDeFwFIX/gmZSx4kzoufk+JwqIDcn+baXtPpEza
+        vbP1hMdWt574xOqUaXtWtx79YHlx8Uo7rGVh8a8g+75qd97m6tySHdW5ueuOLy++n6jbE0z2h5jsTPhi
+        DvELEMojpEdoz1awiT3/Rib+xpNsuM4hPkSABUEEYA3siEQCIgQiAl+xsQis+EKF/RwBQASyln1CmUtY
+        BO56nzoy2TuC9AvfovT5b1CH21+h9nNeUDb3H9T+thf5OhunCcljdjyfPObBa1MnPZ7bbNjqZP5T7IYs
+        FhY/BBzy/y5vs2904Vbfu0Xbfe/mbzz5DXL6Evby8PSdt6scvxB5fbBtrhYT8nMUoCIAJQA1U4FDbN9R
+        HqcBuZwGqEjgCxUJaAHIQiQAEVjCInAXPP87lHHH25S+4A1KYxHowOSHGKA+0G72c9R2+tOUfOvDJ5LH
+        PvRBysQn3m1286bNLUeui+c/yYqAhcWZoGD54Qb5G3yjih/yvdZtN1H3p5TXl2IeDIU9U+Bjq0n+gCEC
+        EO/vFAEIgEQCIL8SgFzUAUwq4BCBbBEBIwAfiADUiAQgAvNeFRFoP+d5ajdzP6VOfYrasLWb+Qy1m/U8
+        tRiz/UjzmzfdlzR4TQf951lYWAQjY1n1HwpXVTfp+hjFF2w6OZi99xd8nYofYG8P4/AfKQDC/mBzikCB
+        eP6AoSDoFwAjAkgBhPxsuhaQveKrgACICHxO2agHOARAUgHO/zsiCmABMCLQASLAEQBEoC2LQJtpLAKT
+        n6DW43dS6wm7qOWYHdRsxIZ7k4dvbYZoIH7I/L/rP9vCwgLIX1NdlL/h5GOlu3x7Crf43kaI3+WRAPnl
+        0ikGpxMB3eIrYvIXoRZgyL8eob+D/DoCMCmAigIgBBwBsAAEagEfU9bSj1gIjAi8x2lAIAroMP81TgNe
+        5kjgRU4DnqW2M/ZJFNB64mOUIraLOAr4otnITfuSRm7cE1+5bFzTqpl/0H+6hcWlC7T3cjdWF3Z+0Let
+        606iHs8QwfNDADozsWsQ32FO4os5wv+CTQHyF3IK4BcA5P7SAnSQfzXIr7oBKAZm36u9f1AxEALgjwJM
+        LWChrgVAABAFsAi0m/MCRwHPsAg8zenAk5Qy4TFqPe5hjgYepZRJj1Mrvkwcuurt+PJFI+K881z6Y7Cw
+        uHRQVUW/YI//52ser74sf3N1RsEW356uu3wnSjnPh0mhrxbSOy3Y66ucPxD2G/LXCP2lDegUgG/Z+5tW
+        oE4BnEVAY+gGLP2Qia/I768FSBTwJqXPf12LwCvSBWg3G6nAM2gRUurk3ZwGcCow7hFqOfZBajFqK7W4
+        eTPFV9z1VWy/BcObDLrnsiaD7rgsvqrq3/XHY2FxcYPJH5m3yTev627f6qL7fTsLt/lOSnsPXp/JjUsx
+        FgK5T98vxHfUAuoSABkCMp4fXn+tavsZ8pv2nzIH+cVqEwCVAgTqAO/pYqCqBahioI4C5r4s7cC2MzkV
+        mP40pwJ7KUXqAY+yAOyg5Fvup+Qx26nZTespruKuV+MGLF8d4120uknfuaX647GwuHhRvI5iix/yTSnc
+        6jveYz+H+7vY62OIBwR3kN5pfgGohfwFID5Cfw77C0UAMAF4UlX7jdf3t/zYhPyq6m9MSC9min869BdT
+        rcA6BYCjAAwJSRQAEeA0AALQbtZzKhVgEUBnALWAVjoKSL5lmwhA0rDV1GzEOkoYfA816bfwgairp3eM
+        6FP1O/1RWVhcXChYXd2gYLNvUekjvs9R4Ov6KJMfk3yG9CwEYsbza6/vJ7/J+9mE/Ex64/X9BT+E/bUR
+        X1sg32fiI+c3pNfmz/vF82vys9VIAYwA+EXgbZkSFBHQMwEYEFIisJ/aTEcqwFHAhF3U6taHqOXoByQN
+        aM4i0IxFIGHAMootX3w46oZZeyNvnJZZVVVl94SwuLiQt5LiEfZ3ftj3SfcnVa4PYgvZjTkFwCECTq8v
+        np8tH15/czUVsxVJ0Q/kh9dXk375IP8aU+HHvD8TX8jPpMfkHxM/C4Q3xT5jhvgOzy8dAIwF+4uASgBQ
+        COwI8p9OAGYoAWgz5UkpAiIVaIUoYNT91HzkRkoaupISKpdQwsC7OQqYTzE3zt0WcfXELvpjs7Co38ja
+        SP9esJHCC+/3zQB5pcIPjw6Pb0jvFABznQ2PAfkN8SECiARK+LKEb5fyZZet1dR5Ewp+KPaZCT8QHwM+
+        nOPXVuQzhb4aoX7tXh+tv4DpsWAdAZhWoJhTAPRoMAaBpBg4fZ/MBqRO2U0piALGPUzJo7dT86otkgI0
+        HXwvJVTcRXHli1gEFlDja6fubHzl2HT31cP+V3+MFhb1E0XbqsPyt1QvLt3l+xAhfxcO+f2e33h8Q3xn
+        2G/IzyQH8Uv5ene+7yp+bE9+7NW4zo/rstVHnZn8hbLYBz1+Pd/vD/VNgQ/ED/L4DrIHSI9+P4gPsmP6
+        Dx5fmSI/OgAq91fG3t8pALoO0GHuS9QB6wT8tQAlAoEoAAXBbRwFbKBmQ1dTIkcA8SwCTbwLKbLXrMPh
+        3cfsCS2t6qw/RguL+gnx/lt8L/d8jknM5JWhnmDyw3CfJj+IX8ikR6gPL9+T04UbOXIo59QB1m8X0Q18
+        31X3V1PJphNUBPLXyPFVmJ/Fnh6El7FemHh8p4dXob3TJMw3ZvJ9h2EFoGr/6dBfh/8Z899QAqDbgUgD
+        RAB0SxBzAW2m7aGUyY9Tik4DUAtAFNB8xHpqOuQ+Sui/hGL73s4icAc1vnoShZeO6qs/RguL+ofuS6v/
+        I39bdWbx/b4Xr3xK5f2neH6HABjyF7FBDK7ix/d7gmj4s0Rj/sH2EtFNzxBVPE507Y5q6rL5BHt+5Psg
+        vnOeX1X11YYeNb18TQ8Pz677+rWZDvWdZhYD+UN/6QAo8vsFQHcCQH6JAKQOgAhgjxQDUybsVMVAjgJa
+        3GJqAasoccAyiiu7gwVgEUX0mHgivPu4qvC8vv+jP04Li/qFgnXVXYu2+x4yVX8s6AkmvRAfoT9Cfi0A
+        pXy9F3v54c8TzXiHaOFHRPPeJ5r4Kt+3j6OBh6upG5O/gPN9yfHRy5dQ37GcV+b4McCj23dLOIQ3xuTG
+        mv4a3t2Quy4z4b4z7NeWjvB/AUTgNU4BVA1ARQBKBFQEsJ/aTttLbSbvltFgrBNoySKAuYAWVZup2fC1
+        UguI74804A6KvG76iUY9Jz3nLhh8q7vIa2sBFvUHOXdU/75gU3Wn4gd9O7qxt+7KZJaiXxDxxUB+Jj68
+        Pqwbi0TZHqLJbxDd9ynRtqNEGw4RzWcBuJm9fx8mf3d4fia/8vhMemnhIcz/lDLZ42cu06G9P48PkD1j
+        MRMdOfwpJDcEr8MQ8oPw/ttOAWDyGwGQ/J8FQIuACMAsrA/QAoBuwMTH/S3B5NEQAE4DMBeAjgBHAagD
+        xPSeQ1E3zCJP6cgP3bmVgy9Pu9atP14LiwsXVVX0b7kbq7MLNlfv6/KY74h4fia9XwA06cXg/dmM57/y
+        YaIB+4luP0j0ABP/GR/REyeJVnxGNJbD/95M/i4bj0m+n3MfVvBxuC8eHxV8FerD29fdr8fQDhMWYfsP
+        MD/Rg677TYf/SgB0BBAkAG10DUCGgibplYJIA8Zsp+RRWyUNaDZsjRQD48rvpNg+t1MMC0DEVePJUzDo
+        k4bZfUdFFPfBkJDdV8DiwkTxSvrPnPUnr2bPfz/C/e67FdElxHd4fDEmPS6L4P238WP58UPYw7PDpj1M
+        fg4A6AW2dV8QTXiZ6AYmf+cNxyTXr9HSW45qvsrthfzw8otMOB8I10HUND2yizX8p7X5MM7nFzCp+Xek
+        yKe9vLrOpMdzSc5vyK/qAP45ALNDUA0B2MsCgEKgEYCHVTdA1gdsCqQBlUtUFMACEHXNFGrUfQy5C4a8
+        6sosuyUks3ek/rgtLC4sdN1M/5W3wbe2K4f92KfPtPNO8fxsUvAD+RH2888GPs3k/5C9/nEijvbpZfb+
+        Gz5Xnv/6h31UuO4Y5/rfSmXfVPWR62cuhdcP9OclRwfhTV4OEmvSy849zhC9LsNj+LH4HfyuGHv3msZk
+        n/e6zP+b27gMDAJBAHQXwKQAsjZAC4DMAzyihoJQB7h5s5oJQDdg4HKJAmJunEuRWgAadRtNIVllH7g6
+        9crQH7eFxYWF7A3Vf8nf6NvSnXN4bM0tLT94egf5RRQ0+Qv55xgD9j7JYf+7RLuZ/Bz90+vVRBuZ/Lcy
+        +a970EdF645QNof8Wfd+yaRHZf+fqpqPth1CfRTwdHFOPL2QU7fjhPBnQPraTITAGD+XFhGQXJGeBQav
+        g5/5f65fi0WgA6IAIwC6EKg6AbspdeJjah7gVhaAMQ9Qi1Fb9PqAVdR00D0UV7GYYvvOo6jrp1NEj/Gc
+        Coyjhtlln7kye+foj9vC4sIBFvkUrK8eUbzD9zzm+2XjTk32Uzw/Ex+eH5e9OFqY/CbR9kNEr2rPv0mT
+        /xomf8EaJv+Kr/09fUN+Ke4hx+dQPx3Eh8c3nt5PfBCZiegk9Y82LQT6Nqr9Jp0IiATM8Tu6BoCR4HZm
+        dSALAAqBqc6x4NHbZZmwDAUNW80CcC/F9b+LYvstoOjes9VMQLdbyJ1f+UVIXv+FIbn9O0V3GPAf+qO3
+        sDj/yF138ob8jSe/xLp+4/nFQHxEAGzmPtnPjw1TfSM40b/nKyIOAmjPSaK1mvzX76imgrXw/F9zuI8J
+        PgzxaPJLoQ+5PsJ9k4+zJzbEO5cG0ovgsAX9TNUBVBoQEIC9sluQWhwUEIDkUdscdYAVFF+5lJqU3cFp
+        wG0UefVkCu86ikKLhvpchUOOhmR5l0Wk9f9v/dFbWJx/5Kw+WY6RXQz8mJ18xOuD+PD8Tu+/lVMEvo0h
+        nxkH2ONz6P8wh/33fso5PwvCtez5C5n8WSsQ9mOFnqOnj1xfevbK64sXlhAc3vmn8vY/0OS1YUH3OyIA
+        fwqAgSAtACkTsVHIwzIQ1NLMA4xYR0moA2AoqHwRxfaZS1HXTZM6QHiXKjFXpneTO8NrtxSzOP/IXfzl
+        H/PWHk4p2OZbVLDx5HFp++kIwB/2O8gPkShmAejJacKIZ4kWfki0+juiJZ8R3cLkv24Hk3/NUenxS8FP
+        ZvY/piwU+hYr8qff8ZbO8zn8/rH5/bkwLQA1agB+ATADQY9IHUCWCBsBwFQg2oG6DhDda4bUAUB+T9EQ
+        Csmp2B2S3beHp6AiRH8NFhbnB0X3HY3IX398Y+dHfF8UbvP5QP5SJjsIX8Pg+RH6Y76fr9+wS433zjtI
+        NPc9Rf4bHqqm4nVH/D1+M8ornh+n8dzB+f5CRf4Lmvja6kwBUAiUgSDsF+gUAD0QNGw1JQ66R00F9ptP
+        0TfMpIieEyms9GZyFwwkT8HAQ5wGvAUR0F+DhcX5QcHqo+H560+8fNXTTHJ4eiZ4MPnh+ZEWmGW9WNXn
+        3a0EAOO9N+0n6sVhf/H6Y0z+b6W/D/Jjqq+TVPq15xfy66q7kOw8hfzfZ/D8hvx+AdBrAkwNwLk/wDjn
+        QNAGFoA1LAB6HqAfpgJRCJxMYV1GiQCElowgd14lNczqaxcLWZwv0M/z1xy6vGBj9ZWFm3wvd9nJJGdi
+        S4gPwjsFAPdpAYBAYHVfOQvA8GeIBu9Vnr8EQz6rvuOw/yvV41/+TyG/qfRLiw+eX/LtWkh3IRkEwMwB
+        GAHQdQCVAugIAAKAhUGoAzgmAgMCsFTWBcT0vk3mAcK7j+EUYKhKA7LLjrlzKqaEFvQL/2tWL7uhqMW5
+        Ra+n6Vc5a472z9/oe6lom+9bye9hmuzBhqW92Lobm3lcwwLgxfLex4mufxDjvceZ/Idkwk/6/DrvF8+P
+        Nt/Ct2Uqr16Q31hQFCDHhkkdQKUBpxeAtZQ4OFAIjNGFwIirbqWwzsMlCmDyn/QUDnrHlVO2OLSgV7j+
+        Wiwszg16LKbf5q0+vBBFP0z9YVfe2ogPg+cv2FJNRZurqZSvX72DQ34WgWu2+4T8mO2Xdh9Cf3Maj/b+
+        8PwY4ZVW24Ua8tdhtQrAdKQB+/SaAKQAWBoMAcBIMDYICQiARADlHAH4BWCcEgAO/915/Sm8dCS5sste
+        8+SUJ+mvxcLi3CFv9ZFpIHjJw8q7BxPfmNnAEzv3lvD1KzlSuGobi8HGY1Sw5pDs3qNm+z/XRT9swKkO
+        3zCtvnrl/bXVJQBqd6DAmgARAD0S3HzkJi0AzlkACMB0LQCc/+cPEAEIKx4GAdjXMLdvlP5KLCzOHVgA
+        JoDcmPXHZTDxpeinyS9HeOMxiAI2+TjnP+4gP+f92vurXr85eectlffPPXXIpn4YxoFVPSCQApg0QI0E
+        Y49AMwtgBECGgWQWQK0JwMrA6OtnUOOrxrPXvxmrAyUKCC0aSg1zvLsb5l0Xqr8SC4uzj/xl//xr3trv
+        soo2n9woO/PeD++uCR9k5sCOfGzfvdlHhRtPUtG641S49rDs2JuzQoX+2TLjr5fzYtBHkz/tdvT6ayNX
+        /TEjAO0wDzALAqDWBMjmICIA5ryAgABgGEjtE8gC0NchAJgFKBwsEYAHtYDcitdduf0HuAorGvNXY5cK
+        W5x95N/3VUbuqm/3dt5+8hs5iIM9OgQAHv4UgwBwBJC/4aQ6qht79usDOuVYbin8YcwX6/nVpJ+s2xfy
+        11fP7zRHR0C6ASwCfgF4Qi8KUluEYXOQ5nocWARAIgBdBLx+OjXuMUFGgtEFcOVWkCunnFz5A4+6c/t/
+        5M4uGxnfq9ev9FdkYXH2kL/iq9LcFd8c6roL3l0LgCa8HM/NJsTHfZL788/1OX15cj4fTuhh8mM7Lwz8
+        YMYf5F+ix3z93v/iEACkAWZlYDupA+hFQacIgJoGbC7TgCu1AOgUoNcMiuw5kRp1vYUjAC0AWV5OA4ZQ
+        aPFwcud457szvL/RX5GFxdlDp+VfFmSt+OoDbPIh5AfhHd5eCn64zobjuhD2+wVAvD/27de792Khjyn8
+        mfX8WMcvM/71r/BXp6EWAAFg7++fCPQvC3YKQGB7MDMO3KTvPIrpNZMFYFJNAcguU/WA/AEUku2dFlFc
+        9Wv9FVlYnD1k3vNlfvaKrw+KAEgEoEhviC/k10d2qbP6TlCB47guDPzIfn5S+NM7+pjcH22/GtN+F4lJ
+        MfAFFQGICOg1AWYWoA4BiNcCgAigcY+JNVMAIwB5lRSSWzbVCoDFOUEOC0AOBOBBJQDI75UQBKIAuU/y
+        fn1QJ5Nf5f7qcE6p/N/9GYf+qufvX+UnC33M0t761fc/rRkBMAuDEAWIAHAEgGXBtaUAA5dLETAgAEE1
+        ACsAFucD+fd8npmz8uv30P4TknNoX4AwH6kAiwCO55Yz+Y2tdRT+9Ik90veXLb1U4U9GfrFb70Ls23eR
+        eX9YbQKAjUFkRaARgOAi4DKKx3FhIgAzTysArhzvRP31WFicXeQt+yyNI4B3sdYf4b2QHH19tPg4EiiE
+        93cKgFT+ddtP9u9Xff9s9P115d94/3TZYacWAl0MdpueB9DjwGpnIEQAdXUBagpABAtAWJcqchcOPjUC
+        yOo3Tn89FhZnBz0WH/ht5l0fNc1edWh8zsrvPi3aUpPouI5iH8x/v879cXqPv/CHk3vu+YyyT6n+v6Fz
+        /4so9PcbCpovsQC8wBGAXhUoAuCsAQQEQA0CmU1B1BwA9gQI63IzC8AgvwCYqUBPQeX6hjn9MhsUD/w/
+        /XVZWPy0SJ/3zl87Lf1kARP609zVh07AqwvBDdmDTciP0N+c2KsEQHb5YfLLLj9aAHBYR7pfAGoj0MVh
+        MhSENMBfAzhVAJJYAE4dBdaLgbqMrBEBuHL4kq97Cgd/HZJV9pQ7y5umvy4Li58WWfM/+DsLwINY9ovC
+        Hop5cha/UwRwXVseyI/QH31/fWpvYKMPPfYL74/23yIc2sH5/yUhAJwGnE4AalkLEHntVGp05Vi1F0DB
+        QDUElAMBYGMBCCsZSQ2zyr91ZXvticIWZwcZCw5enrnsk3UFHOKD+CIA7N3h5f0ioI/pFs9fg/zm8E4V
+        /jvX+8vcv+zse4kLQG2LgeSYsNtYANT5AKFYDchhf0AA+JIFQNYFZJcfdGWV5+mvy8LipwUEoNPSj9aK
+        d5d+PgQABGcRQCQgfX4T8mvyo+ePtp+p/BsBwHp/2d3X7Otfjzb8+BesTgHAWgDsB3CTY0MQ2RJsAUXf
+        MIsaXzP5TATgXY4AcvXXZWHx0wIC0HHJ+2tVaK9aehjqyVt1iPK1CPiJrz2/qvyD/Cj+qSW/ZqNPvwD4
+        V/7Vz2W/P8QCAuAYBJLzAdQRYUoAVlPiQL0nYN/5qgV4zSQWgNEUWjxMt/2sAFicY2QseP3y9DvfXZvL
+        5M5lcmMhD5bzwssHSO80jhCk8McCINV/c7KPPshzKQuA3vRDzttjAbioxn9rs9tekiJgm+mOXYGwGtDs
+        CHTTBrUr8AA9Bag3BTWHg6gZgP5aALRZAbA4F/ALALw/CwAIDXIjEoCnDzac3Z+Ls/v93v8LVf1fimO9
+        UAC8BAUAEcDMZ6QNWEMAcDpQ1RZqNmK9agFWogWIpcB6W/CeE9UMQMEgcmVXWAGwOPcwApAjef03Es5j
+        NR9aeyC6pARyqa7n8KW/74/QXxf/IAAgf2AA6FIVAJwN8JjaEEQEQB8Q6ugAxN44l6KlBTheKv3uPM7/
+        sx3ktwJgca6QMfP1y9MWvrXW7805l5eJPtxmoiMacJoJ+2uQH+0/Dv/lDH+M/+oOwCUlAEgBWAACW4Lh
+        XACcEKyHgCAA/VUHILb3HIq+dipFXIkNQdV24Kr/bwXA4hwjY8Lzl7ef+8pakFgKecjlmdji4e9joqMm
+        YMjvCPtrCIAe/vELwCUTAeDvwpJgrAhUk4AQgFbjH1XbgcmOwDgTAIeDogC4hAVgAcXcMJui5IjwsdIB
+        cOVx/m8FwOJ8oP2Ex/7e4bYXtwnBsY5/6ceyjx/ILSSXdMAIgIP8MBEMLQCy6ScLADoAl0wNQAlAu9nP
+        +/cE9AvAmB0q/7+J83/HMuDYfpz/Xz+TIq/GMuBbyFM8tE4BQHQQklX+mbtjWaH+uiwsflqkTdn7tw63
+        v7IJ5MZpvSAyqvmypt8vAo6wHwbP7yc/P5YNBcBABIDjvd+SIaBLRQDaTH9aFQA5/2+lOwCqAMj5v1kD
+        UIatwG6jSOT/PcZRKLYAN2sAnOQ3AlDM0UFO+UchmWX5+uuysPhpUTz/rf/MmP/6NZlLP96UseT9b4Tc
+        QmpOBZAW4LYc5c1iwAIhkYGQnw2P4dBf1v5L/z9QA7g0BIANqwFnPSenA6kC4C7O/1EADOT/NSYAOfyP
+        lAGgsez9Ef6b/n/ApCaQKxuE7ndleUeH5JdF6q/LwuKnR6/5T/+q47w3StIWvvU+xnuNV5d6ALz86UwW
+        /ujhHx3+XzpFwMCOQNIBQAFwwk61G7Dp/3P+nzDoXorj/D+273yKQfjfE+H/aPIUcviPhT9B4b9/P4Ds
+        splhOYN+/7Oqql/or8rC4uwgbfYLHdLnvfYuWn2ZSz4MpALi5QMRQYD4uK1+pnb/0eS/892AAGAScAGO
+        /L5Y1wJAAJD/71enAiH8H4/wfwclYxuwEdgGTJ0F0KT8Tv8KQLUV+Cgm+mBF+joEwJ3jvVV/PRYWZxcd
+        Zr+Q337uyweR4+PYbvTzRQQ4tz9FAPg6cn78XIX/WgDurE0AcArQBX7m/481sxmIDv+dKwBb3LyZmmMT
+        kMH3UoKu/kf3niMHgiL8Dyu5idz5egVgHQJgtwSzOGdoO+Pp/PazXzwIrw4Cw5sjtEc0IJ0BEQFl/ok/
+        qfprM94/WAAWsgBwGnAx7gmA8B9bgZnqP+b/TfEvMP67nOJl+u92isIegD3VFmDu2sZ/rQBYnC+0nbon
+        v92s/Qelmo9tvEUEOBLAdB88vFwGTHb8FfLr3F8igHf9y4BBfqkBSCEQacDFFgU42n+6+q+m/xw7AOE0
+        4MqlFIfjwG9k72+Gf0pHkrvArP6zAmBxAYAFoJj/mb/I5AgAYTuO70Y7Tzw7zEF0hPsQANn4w9yvIwA5
+        AwDkNwLA5L8YBQCHhKpdgPap48D09J+cBnzTRmqG1X9m+a9Z/dcTh4CY1X+19P6NABQOptDCIRSSXTbH
+        CoDFOUHqpL2FqdP3fgIyo2iH47ullQdvboTAT3SHIJiw309+7f21XXwpwMtMfuP991ObqRz+T3xcev/J
+        HP435/A/SRb/rKSEAXfL4p+YG/XmH9j+C94fvX9U/83S31oEAFEAugBWACzOCdqN3xfVZtresUzWZ9rz
+        P3oatvJi4iIaQEgvdQEIAUJ8XDdi4Lz/FAFQKYAIgOwMfHFEAP7DQDj3x1FgKbL5B0Z/2fuP3EhN/Zt/
+        LJHNP+QEIFn6q7y/mvwD2YMFoEJtCJrb/yO+fg9GgIuLi3+pvyILi7OHqqqqX2TMfP0PqdOfno0NLkBc
+        eDuE706PLsZE77jYeH2IA98OigDg+U3+LykA20UhAuL99eYfU3AMmD4KXFf+/ZN/WPorK/9uk5V/jWX3
+        Xyz9rb31B2Piy/w//2yfK9fbIiWl6t/012NhcW7Qevzj43HWHXJ25LnYz09ILHUBjgZEBJjkILsp9uGS
+        LV2Ir8kfLADzLo40AJ+Jqfxj8CcFO/+Yvr8e/EnEwh/n8V/s/WXnH2z9hQGfIOIbEwHgCKFhjnd3SEGZ
+        R38lFhbnBhnerb9pNW7n/DT2chCAtrOeE48HEUAYn7ZACYE/EqhhmvDapIagya8EAN6/fgsAcn98Jhj7
+        TZnyJLWWsV9s/KlCf9n6W+b+l7L3x9jvHIq8jnP/HuN05X8guSX3r00AykQAwktGIgJ4pWHeDU3112Jh
+        cW4AAWg9ftfk1ClPHW03+4WT8HQ4/RYiIBV8Dt9BZCG58fK1eXvJ+Vkw2BT5dQ1ARKB+pgDi+c3M/2SQ
+        Xy36wdl/gX3/1dSfFP76YOpP9/059/cgtMeinzoq/zAIgLtwyHFXjvcxd6G3if5aLCzODYqLV/4y9dZd
+        KSmTd09lD/cuKt1odSkReFFIACGACIjpqEAM1zXhYRCADrfzY+D1xZSA1K8jwpRYmZZfjRV/4x+Rwl+L
+        UYElvwkDmfwVd1Gs3vVXpv6uvJVCS28K7PtfhwCo48DLj7vzBqwNySkrDcnv/Wf9tVhYnFu0qtoW13LM
+        gy9KGjDzaTn2CmIgQjAHIqAJIoTWBMe8P9qH/Dvp4v3rf8ivBMBR9MO8v+z3p3f85dC/BYf+zYatoaam
+        6i9DP3rLL5z755/6qyv0VyazAZweNMj0VuivwcLi/CB58KrGLUZt3d8eIS//06PghYm3tuwFRQhEBDgt
+        4NRARQWGLBAEbdp71mu7DS2/59W5f479/lti4OeWmtt9JWDir0yf+ddrJkVdPZHUnv8jyIU9/08T+sM8
+        RcPIleU92TDTe6P+Giwszg9ajVj3t6SRGyvZ2z3aasLOE22n75WBlzYQgRkcDSAtYGJACNATR3ogdQIx
+        lSoEhAFmfnYaw2Ocj/X/7nkwfn35G5ACyVZfe4T8atoPi30e0C0/nPi7Um33Xb5YlvtG95ol2301vtK5
+        4Oc0uT/yfqz8yxvwuivbe/sVncpb66/BwuK84efFVSt/nXzzlmH4ZxcPOOkJIYIYC4JfCDhKUGLwwilm
+        iCxkquXnNUwLhnqsFhQnKc+VgfxMfEQ7Mudvwn60+8xGn/6lvkx+2evvrsBqP8z7XzWOwktHklru+z2F
+        P44OZDgo27vFk1kR8jM7+GNxoSBx4Aov/tnbYrNL9n7oe6dO3k2pU59UaQHnxSAJpuIgBmJSKzDEVmT2
+        k1x+VrtYiNUQCr5+rkUAr8n5PuYgIHKm4Ic9/lXOb4Z9QP5Vmvx6o08mf9S1GPjBef+O1X6Y+KtTAMqk
+        OIhIISTLuyGiuOp3+qO3sDj/iKtcntV06KqNLcc++AFaXikTdjEhdokQYAVcm2lPSWpghEDMiAHCZ1iN
+        60wumLntsFqFQaICnRIYq424/4rhOYX4L8h7lfP9prDXx5APyI8NPnTBD4d8NhuOST/t+StB/oWy0g8b
+        fUQy+Ruh5Yetvvxn/dVtMhSUW3nIVTDwyZDsfoOjMof+l/7oLSzOP1Kq5vwuYeiKxKY3rd+OnW4hAsiB
+        MfuOnBibYMBLSn3ApAccLaBX3nbGM2z7hVByidn50xjId9roQNtPIwLYyUdHGxCgmTrcx3vnvydViL9T
+        RnxNtV+Rf62QPwE7/CLsN4d8XD9dtvnCSr+wzmj5mY0+T1P445/L2G9Oxcd8/bqIov7/bbf+srjgABFo
+        OmTF1pRJj6mz7pgMrZgY8IyoiMNLpqI+wGLgjwqmo06wT5kWhJqmowUIg8NUKoEIQZsjYggIgLPgqE1I
+        bToPzvvYgh4L4kvUwaSXBT38uor4T0l6Y0L+lix0/rP9sLe/n/wm51+o5vxB/qsnUUT3MRzKj1Cr+Pwt
+        v7pDfzwGdYKQrPKvrsjsm64/bguLCwvxlXf/KWnwikktbtp4AG0v2e6KreWYB6QoBiFAfUAJgY4KUCNA
+        +1BaiNp0O9GYpA0QAr/htkklgoXBER3g0hiKj3Kp6gVi8hg2XUzEY1Sa8Rzfz2ICbz+TnxdCxMSXvfwm
+        P67eP6c46lDPHfI3Yr6/xU2c72O+f/AK2d0nTpNfev3i+SdRI1PxLxxE7u/p98MQ+nv4sZ6CIV+6ssu3
+        eHIrWumP28LiwkJ8r/m/ajZ0qTtxyL1DmABfttBLXpNHbSGcfQcRECFAVDDhUUkPUiZADNhQNJQ0QaUK
+        ATNiwJ63hpkUoqaZ2oJU5rXX9t9GjUFMRQs178N1/XgtMOo594hIyWIeCfc5msH7h9fnvym5ir0+i13z
+        EeuomRT77pU+P7b2wsm+KPhFX6fIH4H9/Upv0p6/9i2+gg2P9WBdQH7lfSEd+yY0yC3/o/64LSwuTDTp
+        M7lBE+8doxOHrnodnQGExqiIJ9+yVdIChMsgEDwoDKvkRAyYYMrYy3KqYEzSBaeZiEEs6LZfGHSUoL13
+        IJU41STVmKYJz88hwoMOhnQylMdHCmMq/Gjv4W9pjs08UeUfvoZD/vvUiT440698kZzqiwU+quCnBn3E
+        85uwP/iAzxqGxT6c9xcPI09e5ZGQ3IqV7rwb0/THa2Fx4aPFoIm/T6hYPCZ+4N0fc058FEUxzMGriGAr
+        tUJaMBYRwUPKpFbwqDYmG0JsbSi0+c1fUARBNUn9kQMsED0YUZDbRhz0fWI63TiF8ByRyGvjfWCO/9aH
+        2Xbwe95OLTHSi1N8Ee7z32RafDjNJ77/YmqClX2Y8LthFkXrVp8q+HHOLyf7nIHnZ/K7c8p9JuyH57dF
+        P4t6h9iyGZ648sWDEiuXvAEvmTRsjbTGIAKoEbRgMmF4CBEBcmm00IJFAd0EEymoaAGRAlqMHCkwSU27
+        MWAqghChkAgCHhyk1obrNW7j8fx7muxKgFQHA+9FFTMfoBaIYpj4Ms+PjTxAfKzok3P87pINPZr0Y6+P
+        Nl+vGbK4R/b07zqKPflwtcDnDHJ+mDt/EIVklR3z5A+8IySrT0v+KH+uPlELi3qGmD7TGsf0mfuPZiM3
+        MGHulQIZvCYEQSICCAHIpQ0DNFI0ZOK1GssmwsBE1KbEAR4Z4sBRgwgDLrWZQiNCdpg/qtBmxEQTHddF
+        aPh5jQgJ6SXMZ28/aovauVc8Pof6OL1Xwn309pdRHDbz8C6Quf6Y3rMo6nr2+lLpH0vhpVVqaS/6/GdI
+        flho8QhZ7uvq1NerP0YLi/qJmD5zGsfeeNuu+MqlJ0EWtMWwCQbEAMtijRA0u2kDQSREEHTdQBmiBCYj
+        RwoBA0FV5ICc/FTTEYT24jXt1MfLc7LwmNeU8V14en4/JtRXHn8FxYP42L+fvX4TLOjpN5+i0eLDop5r
+        p1BED/b63VSP31M4hFx53z/k4zQQH7/HEcBXrsy+vfTHaGFRPxHde+6fY2+Y0yW2z7z7seml5MnehTIZ
+        h9wZq+PgUREVNIMYoJqOyIAJKIYKO0JvU0x0GDy0EBdRAwRBvLY2ua3uc5r6HW3yPEx2fn55HbwehIjf
+        A9KVpGGrmPjs7XFiz0AmvfH4GOpBhb/PXM71Z8sJvuL10eLrcrNarste3533fT1+p5WpWf/OmAysfNud
+        WTbSk1seqz9GC4v6jchuEzozSZ6OufG2I/CcEAC0y3AUFi6bci4NIUBUAG8rBESRDWTUooD8u4YhWgBx
+        JWpQIoFug9/kviDDY+X3OdpA5CHPz68jNQoO7/m1cUhHU6Qrg+6mRBzVzVELdu4xxI/uA4/P4T7ae5zr
+        y4KerrcwedHfH6zGdjWpTyV6kKHglz+QQouGqPZg/sADrmzv+JDiIf+pPzoLi/oP/ENH9hzXKfLqyY/H
+        9J4rk3HYAx+9cpyGk8CeVQSBCYclsyoyYDHQJhECiojGEC2gs+C3ddKSkwjCGN9X8zHa8PsQGaQg7OGF
+        8IM4JeHwHgM80sdn0sdX3EnxLFZN+i1UbT2E+jcgz8dE32Qp8jXqNka8vgdev0Z/H+Q/UwGoVKv8cso/
+        d+dWDr6iU58G+mOzsLi40Kh0dPfoa2dMb3z1lNmNe4x/HcRCatCk7+0iBmijYb28iAGH3BAE7J0n3phJ
+        6jcU4pi4MOWxOY2AUDhM3c9CImYev0L9PsjOz9mUQ3t/JMJ5PUivPP0COaNPhIrDfMnx0dO/ZnIgz8cy
+        3iJNfCbxmRf6An3+kJzyIyG55Ss9hcOmh3DYH5LV6+/6o7KwuPiAwysyvDN/4/ZW/SG826gxEVdN+GfU
+        9TMohkNqhNWYnGvS53aKYwLGeRdKew1TdeKRmaRi8NDou4uxOJyBSZ8exqmHei7YYn7uRfIa8lpeCBE8
+        vcrt0c4D6WXTjp4TJdTHCr7wUu3x0dc/zdbddRmO+vKgRlA45Bus7Uef3+31/sae7GNxSaFRl0Ge8G63
+        DA3tOupjrI/HKjnk1JibhyBADBB2o8WG3BvFQ79xaB4H8kIczsDwWPwOWnYSacDD95vHzz1Xinl4nZje
+        7OlZjOS9gPQo7LG3x2ad4Rjm6cIe34T6OLHHeHxZw38mhT5lqPJDANiWheSV2T6/xaWLhtllf3EVDh3P
+        IvAaVskht4YQYItshNsotEVx+B3da7YSBGNMWoTo8NgBw+3aTYgOkt+I3+fnwqQewnp4edj1ivQY2424
+        kj09+vjw9sjvMcVXNFR5fAn1mcjfs29fsKEwiCW9Mt6bP/ArV6Z3U0h277b6Y7CwuHQRmlX5p5DsipEh
+        uRVfh3UefoTz6uMgHubncUgmxmkb95wkHhmGwzOVMMxgEmsCf59xVCHhPPL4a6f6nwuhPcQmoocmfZdR
+        FFpys2zQ6enMZJUwH96eiXzGOb7TKtRQT3aZz5Xb/wiT/4g7t3y9K6sizob8FhYa/699F0/Djn36hRYN
+        rnDlDliO0dnwrlUScoOMOCsP22YjBwdRcXY+wnOcoyfGJG58NZPZmBDbYRCRq8arPJ5/V3L5brfIqC7E
+        JhTr8+Gd0cbD5pyY3mOvrZbssrfP9v7gUB+PRWtPNvPILd/rya0c6M4fXOHO7ttB/9kWFhbBwPx7w5yy
+        rUyeL+X4axCTRQCHZmBFHWbrYZi2w/FYKMqFs0AImesyJjkei9+BoEgoXoywngnPJMUQzo8p6NU0dWKv
+        WsIL4iPXxxqA/q96sr12rNfC4kzgzvD+BpVxWQbLBELRTCbrjMEzG+Ofyzl6IPLpDI9x/h7CcjH28DVC
+        e+Plf4inx++r50GFH88P4stEYG7F6yHZZT1Q69B/noWFxZnA1alPhiuncronb8B0V1a/6a5M750Ns8o+
+        CeuMCIDJxUQLyS5HLz1A5LoMj0EIX5f9IMJr49+T2X329GEcXcj7ySl/wJVVNp0FYTp6+1jQE1Hcx+7g
+        a2Hxg1FV9Qv0x8U4KgjLLb+Cc/E7XQUDD4bkVb6PIZqakYEx9uy1EfZfMBC9xmuxSXjPnr9hTvk/QwuH
+        HHRll+91Z5dl+d8zW3yvXr/Sf42FhcW/CndhZRMmXr6roLLEleN9EAU2RARSKzCmifmjvHodJmG94zXk
+        dUtH4mcfhWR7h3jyh+Qz+TvY/fotLM4R3JnebkzMtZzjr22Y7Q1YVtkzIKwIAwpxGLz5kYZUA2TnPP59
+        HMhhXsOdXcGvO3RtSG7ZOHs6r4XFeUB09wH/4c4ffLkyr98a5niv4VThQGjBYMzZH5F5+x9pnrwBR1y5
+        FUc4mpiL47gCr8Ov2a3qcsww6LdjYWFxIcBd5P3fkJyyq9lzVzTILq/AMdo/1tz5Ayvc2QMrwgr7Juin
+        t7CwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCw
+        sLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsDjb+NnP/j/mH948Yw6FIAAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="SHBT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="&gt;&gt;TestNowTime.Name" xml:space="preserve">
+    <value>TestNowTime</value>
+  </data>
+  <data name="ReadInfoGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 88</value>
+  </data>
+  <data name="&gt;&gt;OneStepTimeS.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LB5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 23</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 16</value>
+  </data>
+  <data name="&gt;&gt;TestMeanTime.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;RWString.Parent" xml:space="preserve">
+    <value>GameInfgroup</value>
+  </data>
+  <data name="&gt;&gt;Gamegroup.Name" xml:space="preserve">
+    <value>Gamegroup</value>
+  </data>
+  <data name="&gt;&gt;SHPBR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GameSettingButtom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GameInfgroup.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="GameSettingButtom.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="TestAllTime.Text" xml:space="preserve">
+    <value>0.0</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>Testgroup</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>DiceP</value>
+  </data>
+  <data name="LB4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 27.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;SHPBB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TestButtomGroup.Name" xml:space="preserve">
+    <value>TestButtomGroup</value>
+  </data>
+  <data name="toolStripButton4.Text" xml:space="preserve">
+    <value>toolStripButton4</value>
+  </data>
+  <data name="&gt;&gt;ReadTime.Parent" xml:space="preserve">
+    <value>RecordInf</value>
+  </data>
+  <data name="&gt;&gt;EndGameBottom.Name" xml:space="preserve">
+    <value>EndGameBottom</value>
+  </data>
+  <data name="&gt;&gt;TimeLimit.Name" xml:space="preserve">
+    <value>TimeLimit</value>
+  </data>
+  <data name="LB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 37</value>
+  </data>
+  <data name="GetGo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 183</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 13.8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>Testgroup</value>
+  </data>
+  <data name="&gt;&gt;RP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Gamegroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 494</value>
+  </data>
+  <data name="RoundString.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 27</value>
+  </data>
+  <data name="&gt;&gt;LB6.Parent" xml:space="preserve">
+    <value>TestInfgroup</value>
+  </data>
+  <data name="PreOk.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;NumBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ReadTurn.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 2</value>
+  </data>
+  <data name="LB3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;SHPBR.Name" xml:space="preserve">
+    <value>SHPBR</value>
+  </data>
+  <data name="TestAllTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 19</value>
+  </data>
+  <data name="DiceGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 417</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 400</value>
+  </data>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 13.8pt, style=Bold</value>
+  </data>
+  <data name="SHPBB.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="AITestGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 217</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
+    <value>openFileDialog1</value>
+  </data>
+  <data name="LB6.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label36.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="Langu_en.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 66</value>
+  </data>
+  <data name="&gt;&gt;BPIC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="Testgroup.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;DiceB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LanguageChange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 28</value>
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 62</value>
+  </data>
+  <data name="PlayTimes.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;PlayTimes.Parent" xml:space="preserve">
+    <value>AITestGroup</value>
+  </data>
+  <data name="SHBT.Text" xml:space="preserve">
+    <value>240</value>
+  </data>
+  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 13.8pt, style=Bold</value>
+  </data>
+  <data name="SHPBR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 28</value>
+  </data>
+  <data name="&gt;&gt;StartTestAI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TestButtomGroup.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;StopTestAI.Name" xml:space="preserve">
+    <value>StopTestAI</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 436</value>
+  </data>
+  <data name="BlueGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;StartGameBottom.Name" xml:space="preserve">
+    <value>StartGameBottom</value>
+  </data>
+  <data name="RPIC.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;GameRecordList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DownrecordButtom.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="RecordInf.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="DiceB.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="TimeLimit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 112</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TestInfgroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="OneStepTimeS.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;NumBox.Name" xml:space="preserve">
+    <value>NumBox</value>
+  </data>
+  <data name="ReadTurn.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RWPString.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BWPString.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>本次時間</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 13.8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;GetIni.Name" xml:space="preserve">
+    <value>GetIni</value>
+  </data>
+  <data name="BackBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 2</value>
+  </data>
+  <data name="DiceGroup.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;GameButtomGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LB6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;DiceB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DiceNum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton4.Name" xml:space="preserve">
+    <value>toolStripButton4</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TestInfgroup.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="UseUIMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 31</value>
+  </data>
+  <data name="&gt;&gt;TestButtomGroup.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;GetIni.Parent" xml:space="preserve">
+    <value>AITestGroup</value>
+  </data>
+  <data name="label25.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="RWString.Text" xml:space="preserve">
+    <value>10000</value>
+  </data>
+  <data name="LB6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="StartGameBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 28</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LB4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 37</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Gamegroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SHPBB.Name" xml:space="preserve">
+    <value>SHPBB</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;BlueGroup.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LB6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 23</value>
+  </data>
+  <data name="&gt;&gt;RSM.Parent" xml:space="preserve">
+    <value>AITestGroup</value>
+  </data>
+  <data name="toolStripButton4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
+        zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
+        9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
+        AeoUgA07T8yaaZuZKab1rzN74jgys1YB2O2gmBZzH49LODXrrJlnzEzxe9cOLH1ziMioVgCOiuIFX0CE
+        Q+/WYf+yieiCFrRp9tkwxnP7Kt5MbKGm6wfC000KwDlTXNLgEvHMkh+Db32o7fYivtQm1l9+3IBOp5P7
+        yjYPwlKNCsAluWudxgvtknb5t9oWcL/VLU2Mvd2JFq3uqs7vAtE/ceNayiMF4KiYMSjmY2O7B4Ua+NaD
+        YQGEJumRbvyG1IcfBHI12aAAXM8R57aIWTNrLLY4tfNPiCvpR1SeVeu6WWzHFD6THSDwFMDdpmUG62NJ
+        PKM4Or9ZxBxb8H8l7g5CEu8pAOfM3WanSeeS8CFHxW4zM2umbWamOCShXAH+/wNOANABIDUxWnDPAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;PreOk.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Langu_en.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 28</value>
+  </data>
+  <data name="label23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 148</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 13</value>
+  </data>
+  <data name="GameButtomGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 493</value>
+  </data>
+  <data name="BWPString.Text" xml:space="preserve">
+    <value>People</value>
+  </data>
+  <data name="&gt;&gt;UprecordButtom.Parent" xml:space="preserve">
+    <value>ReadButtomGroup</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DownrecordButtom.Text" xml:space="preserve">
+    <value>下一局</value>
+  </data>
+  <data name="label12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RSM.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="BlueGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 63</value>
+  </data>
+  <data name="ConnectButtom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 28</value>
+  </data>
+  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 13.8pt, style=Bold</value>
+  </data>
+  <data name="UprecordButtom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 2</value>
+  </data>
+  <data name="Gamegroup.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="RP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 18</value>
+  </data>
+  <data name="toolStrip1.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="DefaultBoaButtom.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="RWString.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 20</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator12.Name" xml:space="preserve">
+    <value>toolStripSeparator12</value>
+  </data>
+  <data name="ReadRecNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 3</value>
+  </data>
+  <data name="&gt;&gt;DefaultBoaButtom.Parent" xml:space="preserve">
+    <value>TestButtomGroup</value>
+  </data>
+  <data name="&gt;&gt;label25.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SHPBR.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;BackBottom.Name" xml:space="preserve">
+    <value>BackBottom</value>
+  </data>
+  <data name="ReadTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 47</value>
+  </data>
+  <data name="&gt;&gt;DiceP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SHPBB.Parent" xml:space="preserve">
+    <value>ReadInfoGroup</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 16</value>
+  </data>
+  <data name="&gt;&gt;LB4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="RWString.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 12pt, style=Bold</value>
+  </data>
+  <data name="OneStepTimeS.Text" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;LB3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="TestButtomGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 454</value>
+  </data>
+  <data name="&gt;&gt;TestColar.Name" xml:space="preserve">
+    <value>TestColar</value>
+  </data>
+  <data name="SHPBB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 31</value>
+  </data>
+  <data name="&gt;&gt;RWPString.Parent" xml:space="preserve">
+    <value>GameInfgroup</value>
+  </data>
+  <data name="&gt;&gt;BWPString.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="LB4.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="Langu_def.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 28</value>
+  </data>
+  <data name="&gt;&gt;Gamegroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label25.Name" xml:space="preserve">
+    <value>label25</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;DownrecordButtom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="UprecordButtom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 30</value>
+  </data>
+  <data name="&gt;&gt;TestButtomGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GameSettingButtom.Name" xml:space="preserve">
+    <value>GameSettingButtom</value>
+  </data>
+  <data name="label25.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="UprecordButtom.Text" xml:space="preserve">
+    <value>上一局</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 19</value>
+  </data>
+  <data name="&gt;&gt;LB2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="StartTestAI.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>GameInfgroup</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;DownrecordButtom.Name" xml:space="preserve">
+    <value>DownrecordButtom</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ReBoaButtom.Text" xml:space="preserve">
+    <value>回復盤面</value>
+  </data>
+  <data name="RSM.Items" xml:space="preserve">
+    <value>隨機</value>
+  </data>
+  <data name="&gt;&gt;PlayerB.Name" xml:space="preserve">
+    <value>PlayerB</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 19</value>
+  </data>
+  <data name="SHDice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 26.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;PreOk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GameRecordList.Parent" xml:space="preserve">
+    <value>Gamegroup</value>
+  </data>
+  <data name="&gt;&gt;GameButtomGroup.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="toolStrip1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft JhengHei UI, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;LB1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="GetIni.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="TimeLimit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 30</value>
+  </data>
+  <data name="UseUIMode.Items" xml:space="preserve">
+    <value>遊戲模式</value>
+  </data>
+  <data name="GetGo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 30</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;DefaultBoaButtom.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ReadInfoGroup.Name" xml:space="preserve">
+    <value>ReadInfoGroup</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="label15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="TestColar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="RSM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 27</value>
+  </data>
+  <data name="label28.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="LB2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TimeLimit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 14.25pt</value>
+  </data>
+  <data name="PlayerB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="RecordInf.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="TestNowTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 13.8pt, style=Bold</value>
+  </data>
+  <data name="LB6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>棋子顏色</value>
+  </data>
+  <data name="&gt;&gt;DisConnectButtom.Name" xml:space="preserve">
+    <value>DisConnectButtom</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LB4.Parent" xml:space="preserve">
+    <value>TestInfgroup</value>
+  </data>
+  <data name="PlayTimes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 145</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DiceP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 6</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
+    <value>toolStripSeparator5</value>
+  </data>
+  <data name="AITestGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 16</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>勝</value>
+  </data>
+  <data name="&gt;&gt;DiceGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BWString.Text" xml:space="preserve">
+    <value>10000</value>
+  </data>
+  <data name="BWPString.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>全部時間</value>
+  </data>
+  <data name="GetIni.Text" xml:space="preserve">
+    <value>獲得初始化盤面測試</value>
+  </data>
+  <data name="&gt;&gt;TestBoardText.Name" xml:space="preserve">
+    <value>TestBoardText</value>
+  </data>
+  <data name="TestNowTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="Gamegroup.Text" xml:space="preserve">
+    <value>紀錄</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="EndGameBottom.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="TestMeanTime.Text" xml:space="preserve">
+    <value>0.0</value>
+  </data>
+  <data name="RoundString.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 48</value>
+  </data>
+  <data name="&gt;&gt;RecordInf.Parent" xml:space="preserve">
+    <value>Gamegroup</value>
+  </data>
+  <data name="&gt;&gt;BTimeS.Name" xml:space="preserve">
+    <value>BTimeS</value>
+  </data>
+  <data name="RP.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>128, 19</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>217, 19</value>
+  </metadata>
+  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>19, 19</value>
+  </metadata>
+</root>
