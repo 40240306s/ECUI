@@ -1,6 +1,6 @@
 # 愛因斯坦棋平台</br>
 下載完整包(內含執行檔、說明書)：
-<a href="https://drive.google.com/file/d/0B4ZdTNgLf8OwekpwUW83ZjBhclU/view" title="文字敘述" target="_blank">Download</a>
+<a href="https://drive.google.com/file/d/0B4ZdTNgLf8OwekpwUW83ZjBhclU/view" target="_blank">Download</a>
 </br>
 
   用 C# 所寫的 windows form程式，code裡有一堆中文(變數名)等等，所以有點雷，等到我發現了這件事的時候已經太遲，
